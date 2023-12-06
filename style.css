@@ -1,7 +1,8 @@
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /* ======== MENU ======== */
@@ -9,7 +10,7 @@ body {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
     background: #E5E5E5;
 }
 .menu--btn {
@@ -47,20 +48,20 @@ border-radius: 3px;
   flex-direction: column;
   align-items: center;
   background: #E5E5E5;
-  width: 100%vw;
 }
 
 .__title-text {
   font-size: 53px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin: 10px 20px;
 }
 
 .__bread-text {
 text-align: center;
 color: rgba(34, 34, 34, 0.80);
-line-height: 150%;
+line-height: 24px;
 padding: 10px;
+width: 600px;
 }
 
 .hero-btn {
@@ -83,7 +84,8 @@ padding: 10px;
 
 .hero-btns {
 display:flex;
-gap: 2rem;
+gap: 1.5rem;
+margin-top: 50px;
 }
 
 /* ====== MAIN-SECTION ======= */
@@ -160,7 +162,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    width: 100vw;
+
 }
 
 .footer-section {
